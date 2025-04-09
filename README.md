@@ -77,10 +77,10 @@
 <h3>Real-time Detection Examples:</h3>
 
 <p>Female, 25-32 years:</p>
-<img src="demo_images/female_25_32.jpg" alt="Female 25-32 years detection">
+<img src="female_25_3.jpg" alt="Female 25-32 years detection">
 
-<p>Male, 38-43 years:</p>
-<img src="demo_images/male_38_43.jpg" alt="Male 38-43 years detection">
+<p>Female, 4-8 years:</p>
+<img src="female_25_32.jpg" alt="Male 38-43 years detection">
 
     >python detect.py --image girl1.jpg
     Gender: Female
