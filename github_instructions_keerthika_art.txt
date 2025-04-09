@@ -1,0 +1,30 @@
+## Instructions for pushing to GitHub (keerthika-art account)
+
+1. Create a new repository on GitHub:
+   - Log out of your current GitHub account (keerthana-dataanalytics)
+   - Log in with the keerthika-art account
+   - Go to https://github.com/new
+   - Repository name: Age-and-Gender-Detection
+   - Description: A Python project for gender and age detection using OpenCV and deep learning
+   - Choose "Public" visibility
+   - Do NOT initialize with README, .gitignore, or license (we already have these files)
+   - Click "Create repository"
+
+2. After creating the repository, you'll see instructions. Follow these commands in your terminal:
+
+```
+# First, remove the existing remote
+git remote remove origin
+
+# Add the new remote pointing to keerthika-art's repository
+git remote add origin https://github.com/keerthika-art/Age-and-Gender-Detection.git
+
+# Push your code to the new repository
+git branch -M main
+git push -u origin main
+```
+
+3. Verify that your code has been pushed to the new repository by visiting:
+   https://github.com/keerthika-art/Age-and-Gender-Detection
+
+Note: This will completely transfer your project to the keerthika-art account. The project will no longer be associated with the keerthana-dataanalytics account unless you specifically want to keep it in both places.
